@@ -1,8 +1,8 @@
 describe('My First Test', () => {
     it('finds the content "title"', () => {
-      cy.visit('https://www.reuters.com')
+      cy.visit('https://www.google.com')
   
-      cy.title().should('contain', "Home | Reuters")
+      cy.contains("Google")
     })
   })
 
